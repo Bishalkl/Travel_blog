@@ -1,0 +1,20 @@
+// first using sass modules for operatin
+@use 'sass:math';
+
+// function for convert the unit into rem
+@function rem($pixel) {
+    @if math.is-unitless($pixel) {
+        @return math.div($pixel, 16) + rem;
+    } @else {
+        @error 'Don\'t use units when using the rem() function; only numbers.';
+    }
+}
+
+// function for convert the unit into em
+@function em($pixel) {
+    @if math.is-unitless($pixel) {
+        @return math.div($pixel, 16) + em;
+    } @else {
+        @error 'Don\'t use units when using the em() function; only numbers.';
+    }
+}
