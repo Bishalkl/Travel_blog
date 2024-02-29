@@ -1,0 +1,44 @@
+@use 'function' as f; // using function in this break-points
+@use 'sass:map';
+
+
+//-----------use this when desktop size is more complicated--------
+
+
+// create a sass object to store
+$breakpoints-up: (
+    "medium": f.em(430), //mobile
+    "large": f.em(1024), //tablet
+    "xlarge": f.em(1440), // desktop
+);
+
+// using the mixing to responsive using min-width
+@mixin breakpoint-up($size) {
+    @media (min-width: map-get($breakpoints-up, $size)){
+        @content;
+    }
+}
+
+
+
+
+//  -----------use this when mobile size i more complicated--------
+
+
+
+// create a sass object to store
+$breakpoint-down: (
+    "small" : f.em(428.98),
+    "medium" : f.em(1023.98),
+    "large": f.em(1438.98),
+);
+
+// using the mixing to responsive using max-width
+@mixin breakpoint-down($size) {
+    @media (max-width: map-get($breakpoint-down, $size)) {
+        @content;
+    }
+}
+
+
+
