@@ -2,6 +2,10 @@
 I am create a website.
 
 
+# Link for figma
+https://www.figma.com/file/0p1sfsJliTlA6KBWwjZbeL/Responsive-Web-Design-in-Figma-(Community)?type=design&node-id=206-173&mode=design&t=d7xYFkMexORjSwjY-0
+
+
 #Work part
 
 Day1:
