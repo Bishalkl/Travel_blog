@@ -1,0 +1,42 @@
+@use '../util/' as u;
+
+:root {
+    /* Color variables */
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-purple: hsl(247, 51%, 55%);
+    --clr-pink: hsl(335, 92%, 67%);
+    --clr-black: hsl(245, 21%, 12%);
+    --clr-orange: hsl(14, 100%, 57%);
+    --clr-light-purple: hsla(245, 21%, 12%, 0.5);
+    --clr-dark-purple: hsla(245, 21%, 12%, 0.75);
+    
+    /* Font weight variables */
+    --fw-thin: 100;
+    --fw-regular: 400;
+    --fw-bold: 700; 
+
+    /* Font size clamp variables */
+
+    --var-16: #{u.rem(16)};
+    --fs-70: #{clamp(u.rem(40), calc(1.7017 * var(--var-16) + 2.9703vw), u.rem(70))};
+    --fs-18: #{clamp(u.rem(16), calc(0.9468 * var(--var-16) + 0.198vw), u.rem(18))};
+    --fs-23: #{clamp(u.rem(16), calc(0.8137 * var(--var-16) + 0.6931vw), u.rem(23))};
+    --fs-44: #{clamp(u.rem(32), calc(1.6807 * var(--var-16) + 1.1881vw), u.rem(44))};
+    --fs-28: #{clamp(u.rem(24), calc(1.3939 * var(--var-16) + 0.396vw), u.rem(28))};
+    --fs-55: #{clamp(u.rem(32), calc(1.388 * var(--var-16) + 2.2772vw), u.rem(55))};
+
+
+    
+    /* None-font-size-clamp variables */
+    --fs-no-clamp-70: #{u.rem(70)};
+    --fs-no-clamp-55: #{u.rem(55)};
+    --fs-no-clamp-44: #{u.rem(44)};
+    --fs-no-clamp-28: #{u.rem(28)};
+    --fs-no-clamp-23: #{u.rem(23)};
+    --fs-no-clamp-18: #{u.rem(18)};
+    --fs-no-clamp-16: #{u.rem(16)};
+    --fs-no-clamp-14: #{u.rem(14)};
+
+    /* font-family*/
+    --font-family: 'inter';
+}
