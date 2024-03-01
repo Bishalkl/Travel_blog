@@ -9,7 +9,10 @@ https://www.figma.com/file/0p1sfsJliTlA6KBWwjZbeL/Responsive-Web-Design-in-Figma
 #Work part
 
 Day1:
-Today, i have setup all the material needed while developing website including folders for sass and npm packages. Moreover, i have created bolierplate to reset all the browser default style. Likewise, I have created a function which allows us to convert the units and for responsive size, i have created a breakpoints for all the sizes for the website with the help of mixing modules in sass. 
+Today, I have set up all the necessary materials for developing a website, including folders for Sass and npm packages. Additionally, I have created a boilerplate to reset all default browser styles. Moreover, I have developed a function that enables us to convert units, and for responsive sizing, I have established breakpoints for all website sizes using mixin modules in Sass.
+
+Day2:
+Today, I have created a custom variable where I've stored all the color assets, font sizes, and font weights that will be used while developing the website. I've gathered all the variants and utilized a clamp to ensure responsiveness across different screen sizes.
 
 
 
