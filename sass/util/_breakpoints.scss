@@ -1,5 +1,4 @@
 @use 'function' as f; // using function in this break-points
-@use 'sass:map';
 
 
 //-----------use this when desktop size is more complicated--------
@@ -9,7 +8,7 @@
 $breakpoints-up: (
     "medium": f.em(430), //mobile
     "large": f.em(1024), //tablet
-    "xlarge": f.em(1440), // desktop
+    "x-large": f.em(1440), // desktop
 );
 
 // using the mixing to responsive using min-width

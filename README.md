@@ -14,5 +14,5 @@ Today, I have set up all the necessary materials for developing a website, inclu
 Day2:
 Today, I have created a custom variable where I've stored all the color assets, font sizes, and font weights that will be used while developing the website. I've gathered all the variants and utilized a clamp to ensure responsiveness across different screen sizes.
 
-
-
+Day3:
+Today, I created a responsive navbar for a website. I utilized flexbox to arrange the elements, including the signup and login buttons, navigation links, and logo, based on the available screen size. I also employed techniques such as adjusting the flex direction, utilizing the gap property for spacing between elements, and using flex-direction: row-reverse for specific layouts.
