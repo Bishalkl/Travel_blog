@@ -1,0 +1,41 @@
+@use '../util/' as u;
+
+
+
+.hero{
+    background-color: var(--clr-white);
+    &__wrapper{
+        padding-block: u.rem(32);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: u.rem(32);
+    }
+
+    &__image{
+        margin-inline: auto;
+        display: inline-block;
+    }
+
+    &__textcontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: u.rem(16);
+        padding-block: u.rem(32);
+    }
+
+    &__tag{
+       color: var(--clr-pink)
+    }
+
+
+    &__headline{
+        span{
+            color: var(--clr-pink);
+            padding: u.rem(32) u.rem(20);
+        }
+    }
+
+}
